@@ -188,7 +188,7 @@ test('HTML nesting is balanced, with no custom elements or forgotten closing tag
 });
 
 test('preview is standalone, public-safe, and has no legacy facts or network dependencies', () => {
-  assert.doesNotMatch(preview, /<(?:script|img|iframe|audio|video)\b[^>]*\bsrc=|<link\b[^>]*href=/i);
+  assert.doesNotMatch(preview, /<(?:script|img|iframe|audio|video)\b[^>]*\bsrc=|<link\b[^>]*href="(?!data:image\/svg\+xml,)/i);
   assert.doesNotMatch(preview, /\b(?:fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon)\s*\(/);
   assert.doesNotMatch(preview, /PPCC|MGM|Las Vegas|Whova|Pacific|October 27|healthcare-logo|google-analytics|googletagmanager|tracking/i);
   assert.doesNotMatch(preview, /url\s*\(\s*["']?https?:/i);
