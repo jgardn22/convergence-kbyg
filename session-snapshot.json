@@ -1,0 +1,202 @@
+{
+  "checked": "2026-11-18",
+  "source": "https://sessionize.com/api/v2/i9eggm8p/view/All",
+  "sessions": [
+    {
+      "id": "1380784",
+      "title": "Service Agent: From Configuration to Extensibility Across Microsoft 365 and Dynamics 365",
+      "startsAt": "2026-12-09T10:30:00",
+      "endsAt": "2026-12-09T11:30:00",
+      "speakers": [
+        "Radhika Daram",
+        "Jerry Fetzer"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1335539",
+      "title": "Microsoft Presents: Dynamics 365 Supply Chain Management Latest Innovations",
+      "startsAt": "2026-12-09T10:30:00",
+      "endsAt": "2026-12-09T11:30:00",
+      "speakers": [
+        "Raghav Jandhyala"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1293217",
+      "title": "From Foundation to Frontier: Scaling Dataverse for the Agentic Enterprise",
+      "startsAt": "2026-12-09T12:30:00",
+      "endsAt": "2026-12-09T13:30:00",
+      "speakers": [
+        "Shikhar Agarwal",
+        "Berel Lax"
+      ],
+      "source": "Official catalog"
+    },
+    {
+      "id": "1322897",
+      "title": "How Agentic AI Is Transforming Customer Support",
+      "startsAt": "2026-12-09T12:30:00",
+      "endsAt": "2026-12-09T13:30:00",
+      "speakers": [
+        "Alan Ross"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1362809",
+      "title": "From Pilot to Production: Scaling AI in the Contact Center",
+      "startsAt": "2026-12-09T13:45:00",
+      "endsAt": "2026-12-09T14:45:00",
+      "speakers": [
+        "Beth Burrell",
+        "Satyan S"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1322927",
+      "title": "Microsoft Presents: Finance for Service and Product-Led Organizations",
+      "startsAt": "2026-12-09T13:45:00",
+      "endsAt": "2026-12-09T14:45:00",
+      "speakers": [
+        "April Olson",
+        "Reetu Chopra",
+        "Shawna Mikes"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1368757",
+      "title": "Implementing AI-Powered Contact Centers:  Architecture and Implementation Lessons",
+      "startsAt": "2026-12-09T15:45:00",
+      "endsAt": "2026-12-09T16:45:00",
+      "speakers": [
+        "Vinoth Balasubramanian",
+        "Milos Vukic",
+        "Anand Singh"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1324819",
+      "title": "Microsoft Presents: Agentic financial close - streamline account reconciliation and agentic close",
+      "startsAt": "2026-12-09T15:45:00",
+      "endsAt": "2026-12-09T16:45:00",
+      "speakers": [
+        "Brian King (DYNAMICS)",
+        "Russel Hercules",
+        "Hiranmai Karra"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1324847",
+      "title": "Microsoft Presents:  Manage cost and security for your AI deployments",
+      "startsAt": "2026-12-10T10:15:00",
+      "endsAt": "2026-12-10T11:15:00",
+      "speakers": [
+        "Abhishek Ghosh",
+        "Sam Schotte",
+        "Ragnar Pitla"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1380782",
+      "title": "From Email to Resolution: Building Agentic Customer Service with AI",
+      "startsAt": "2026-12-10T10:15:00",
+      "endsAt": "2026-12-10T11:15:00",
+      "speakers": [
+        "Jerry Fetzer",
+        "Alok Singh"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1362844",
+      "title": "Quality Without Blind Spots: Managing Human and AI Agents at Scale",
+      "startsAt": "2026-12-10T12:15:00",
+      "endsAt": "2026-12-10T13:15:00",
+      "speakers": [
+        "Perry Foster",
+        "Satyan S"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1281655",
+      "title": "Unified Field to Finance Journey with D365 Project Operations, Field Service and F&O",
+      "startsAt": "2026-12-10T12:15:00",
+      "endsAt": "2026-12-10T13:15:00",
+      "speakers": [
+        "Sandeep Chaudhury"
+      ],
+      "source": "Community-led"
+    },
+    {
+      "id": "1292444",
+      "title": "Right-Size & Secure Your Data Estate: Governing & Managing Dataverse and Dynamics 365",
+      "startsAt": "2026-12-10T13:30:00",
+      "endsAt": "2026-12-10T14:30:00",
+      "speakers": [
+        "Tommy Graham"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1370534",
+      "title": "The AI-First Contact Center: Roadmap and Vision",
+      "startsAt": "2026-12-10T13:30:00",
+      "endsAt": "2026-12-10T14:30:00",
+      "speakers": [
+        "Alpana Bajaj",
+        "Adhitya Vidyasankar"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1284763",
+      "title": "From Dispatch Board to Decision Board: Reimagining D365 Field Service Scheduling with Copilot",
+      "startsAt": "2026-12-10T15:30:00",
+      "endsAt": "2026-12-10T16:30:00",
+      "speakers": [
+        "Bharath Chandar"
+      ],
+      "source": "Community-led"
+    },
+    {
+      "id": "1362828",
+      "title": "Proving ROI: A Buyer's Framework for AI in Customer Service",
+      "startsAt": "2026-12-10T15:30:00",
+      "endsAt": "2026-12-10T16:30:00",
+      "speakers": [
+        "Perry Foster",
+        "Isabel Sciacca"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1322899",
+      "title": "Bringing Customer Service into Microsoft 365 with Service Agent and Copilot Cowork",
+      "startsAt": "2026-12-10T16:45:00",
+      "endsAt": "2026-12-10T17:45:00",
+      "speakers": [
+        "Kos Srivastava"
+      ],
+      "source": "Microsoft-led"
+    },
+    {
+      "id": "1335543",
+      "title": "Microsoft Presents: Intelligent Supply Chain Planning with AI",
+      "startsAt": "2026-12-10T16:45:00",
+      "endsAt": "2026-12-10T17:45:00",
+      "speakers": [
+        "Misty Allen",
+        "Anders Girke"
+      ],
+      "source": "Microsoft-led"
+    }
+  ]
+}
