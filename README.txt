@@ -13,9 +13,9 @@ Do not edit generated index.html or convergence-preview.html directly.
 
 The mandatory Clawpilot theme uses scoutTheme=light or scoutTheme=dark in the URL,
 otherwise the operating-system preference. The original theme definitions remain
-intact. Guide-specific tokens map the Convergence navy, royal blue, cyan and ice
-palette to readable surfaces and controls in each theme. Cyan is decorative;
-links, focus and selection use higher-contrast colors. Miami Modern curves, coastal
+intact. Guide-specific tokens give the header and hero a near-black and electric
+blue palette in both themes. Reading sections follow the selected light or dark
+theme. Links, focus and selection use high-contrast blues. Miami Modern curves, coastal
 linework and typographic plus marks are original CSS, not copied event assets.
 
 Research snapshot: November 18, 2026. The selected session records were extracted

@@ -243,5 +243,9 @@ test('guide text, interactive states, and focus colors meet WCAG AA contrast in 
     verify('ice', 'navy', 4.5);
     verify('ice', 'royal', 4.5);
     verify('cyan', 'navy', 3);
+    for (const surface of ['midnight', 'night-panel']) {
+      for (const text of ['ice', 'night-muted', 'night-blue', 'night-hover']) verify(text, surface, 4.5);
+      verify('night-control', surface, 3);
+    }
   }
 });
