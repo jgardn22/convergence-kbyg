@@ -24,6 +24,11 @@ https://sessionize.com/api/v2/i9eggm8p/view/All
 The snapshot stores metadata only, not complete session abstracts.
 data.mjs supplies independent editorial HLS rationale.
 
+The BDO, Vertex and eftsure event was verified against its public listing on
+November 23, 2026. Registration links directly to the organizers' form. The event
+overlaps the Quisitive reception, and its later portion overlaps Hummingbird's
+pool party; the Wednesday event note calls out the conflicts.
+
 Known source conflicts are disclosed visibly: Thursday's late slots differ between
 the feed and agenda overview; Quisitive's page names Lapis Circle and Arkadia Pool.
 Hummingbird's luncheon time differs from the official agenda. Pool-party date/time

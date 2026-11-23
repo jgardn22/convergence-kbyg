@@ -143,10 +143,24 @@ test('both core days have nine simultaneous primary/alternate pairs with source 
 });
 
 test('event CTAs distinguish host requests, information and pending placeholders', () => {
-  assert.equal(events.length, 6);
+  assert.equal(events.length, 7);
   assert.equal(events[0].id, 'quisitive');
   assert.equal(events.filter(event => event.featured).length, 1);
   assert.equal(events.filter(event => event.cta?.intent === 'request').length, 1);
+  const bdo = events.find(event => event.id === 'bdo-all-aboard');
+  assert.ok(bdo);
+  assert.equal(bdo.host, 'BDO, Vertex and eftsure');
+  assert.equal(bdo.date, 'Wednesday, December 9');
+  assert.equal(bdo.time, '6:00-9:00 PM EST');
+  assert.match(bdo.location, /The Miami Lady at The Fontainebleau Marina.*45th Street and Collins Avenue/);
+  assert.equal(bdo.cta.intent, 'register');
+  assert.match(bdo.cta.href, /^https:\/\/insights\.bdo\.com\//);
+  assert.equal(bdo.source.href, 'https://www.bdo.com/events/all-aboard-going-nowhere-zero-nautical-miles-countless-connections');
+  assert.equal(bdo.source.checked, 'November 23, 2026');
+  assert.match(html, /Register with BDO/);
+  assert.match(html, /Which Wednesday events overlap\?/);
+  assert.match(html, /overlaps both gatherings from 6:00-8:00 PM/);
+  assert.doesNotMatch(html, /nam06\.safelinks\.protection\.outlook\.com/);
   assert.equal(events.find(event => event.id === 'sonata').cta, undefined);
   assert.match(events.find(event => event.id === 'hummingbird-pool').status, /coming soon/);
   assert.equal(events.find(event => event.id === 'hummingbird-pool').time, '5:00-8:00 PM ET');

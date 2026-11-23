@@ -13,6 +13,25 @@ export const events = [
     footnote: 'Opens the host page and its RSVP form. A request is not confirmed registration.'
   },
   {
+    id: 'bdo-all-aboard', kind: 'Partner event',
+    title: 'ALL ABOARD...GOING NOWHERE: Zero Nautical Miles. Countless Connections.',
+    host: 'BDO, Vertex and eftsure',
+    date: 'Wednesday, December 9', time: '6:00-9:00 PM EST',
+    location: 'The Miami Lady at The Fontainebleau Marina · 45th Street and Collins Avenue, Miami Beach, FL 33140',
+    status: 'Registration available with the organizers',
+    description: 'A docked-boat gathering for cocktails, conversation and networking during Convergence. The hosts say there is no departure schedule.',
+    cta: {
+      label: 'Register with BDO',
+      href: 'https://insights.bdo.com/EV-2026-12-09-ALLABOARD...GOINGNOWHEREZeroNauticalMiles.CountlessConnections.-_EventRegistrationPage.html',
+      intent: 'register'
+    },
+    source: {
+      label: 'BDO event details',
+      href: 'https://www.bdo.com/events/all-aboard-going-nowhere-zero-nautical-miles-countless-connections',
+      checked: 'November 23, 2026'
+    }
+  },
+  {
     id: 'welcome', kind: 'Official conference event',
     title: 'Welcome Reception', host: 'Convergence',
     date: 'Tuesday, December 8', time: '6:00-8:00 PM ET',
@@ -127,7 +146,7 @@ export const checklist = [
 export const faq = [
   ['What dates should I book?', 'Convergence runs December 8-11, 2026. The core conference is Wednesday and Thursday, December 9-10. Tuesday has the separately ticketed Partner Pre-Day plus the official Welcome Reception. Friday workshops are add-ons.', 'https://convergence365.com/agenda-at-a-glance/'],
   ['What is included in general admission?', 'The official FAQ includes the Tuesday Welcome Reception, core education sessions and executive roundtables, Expo Hall, Convergence-sponsored receptions, and breakfast, lunch, snacks and beverages on both core days. Partner-hosted events may have their own invitation or RSVP rules.', 'https://convergence365.com/frequently-asked-questions/'],
-  ['Are Wednesday’s two happy hours the same event?', 'No. The official Expo Happy Hour is December 9, 5:00-6:00 PM ET. The featured Quisitive partner reception is 6:00-8:00 PM ET, invitation-only, with RSVP confirmation from the host. One does not register you for the other.', 'https://info.quisitive.com/convergence-happy-hour/'],
+  ['Which Wednesday events overlap?', 'The official Expo Hall Happy Hour is December 9, 5:00-6:00 PM ET. Hummingbird’s 5:00-8:00 PM pool party overlaps it. Quisitive’s invitation-only reception is 6:00-8:00 PM ET and needs host confirmation. BDO, Vertex and eftsure list a docked event aboard The Miami Lady from 6:00-9:00 PM EST, overlapping Quisitive and Hummingbird from 6:00-8:00 PM. Check each host’s registration or RSVP requirements.', 'https://www.bdo.com/events/all-aboard-going-nowhere-zero-nautical-miles-countless-connections'],
   ['Where exactly is the Quisitive reception?', 'It is onsite at Fontainebleau Miami Beach. The host page names Lapis Circle in its invitation and Arkadia Pool elsewhere. Confirm the final gathering point in the host’s RSVP email before walking over.', 'https://info.quisitive.com/convergence-happy-hour/'],
   ['Which airport should I use?', 'The conference FAQ recommends Miami International Airport (MIA), about 12 miles away. Fort Lauderdale-Hollywood International Airport (FLL) is an alternative farther away. Allow for Miami traffic rather than treating a drive estimate as a guarantee.', 'https://convergence365.com/frequently-asked-questions/'],
   ['Is the conference hotel block still open?', 'Check the current booking link or call the hotel. The venue page lists conflicting November 6 and November 13, 2026 deadlines, both in the past as of this guide’s review. No active booking deadline or guaranteed rate is represented here.', 'https://convergence365.com/venue/'],

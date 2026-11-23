@@ -36,17 +36,23 @@ const dayMarkup = days.map((day, index) => `<section class="day" id="day-${index
 </section>`).join('');
 const checks = checklist.map(([id, title, detail, url, label]) => `<li><label class="check-row" for="check-${id}"><input type="checkbox" id="check-${id}" data-check="${id}"><span><strong>${escape(title)}</strong><span>${escape(detail)}</span></span></label>${url ? `<p class="check-link">${link(url, label)}</p>` : ''}</li>`).join('');
 const faqs = faq.map(([question, answer, url]) => `<details class="faq-item"><summary>${escape(question)}</summary><div><p>${escape(answer)}</p>${url ? `<p>${link(url, 'Check the source')}</p>` : ''}</div></details>`).join('');
-const eventMarkup = events.map(event => `<article class="card event-card${event.featured ? ' event-featured' : ''}" id="event-${escape(event.id)}" aria-labelledby="event-title-${escape(event.id)}">
+const eventMarkup = events.map(event => {
+  const details = [
+    event.note && `<p class="event-note">${escape(event.note)}</p>`,
+    event.cta && `<a class="${['request', 'register'].includes(event.cta.intent) ? 'button' : 'event-info-link'}" href="${escape(event.cta.href)}">${escape(event.cta.label)} <span aria-hidden="true">↗</span></a>`,
+    event.footnote && `<p class="event-footnote">${escape(event.footnote)}</p>`,
+    event.source && `<p class="event-footnote">Source: ${link(event.source.href, event.source.label)}. Checked ${escape(event.source.checked)}.</p>`
+  ].filter(Boolean).join('\n  ');
+  return `<article class="card event-card${event.featured ? ' event-featured' : ''}" id="event-${escape(event.id)}" aria-labelledby="event-title-${escape(event.id)}">
   <p class="eyebrow">${event.featured ? 'Featured · ' : ''}${escape(event.kind)}</p>
   <h3 id="event-title-${escape(event.id)}">${escape(event.title)}</h3>
   <p class="event-when">${escape(event.date)}<br><strong>${escape(event.time)}</strong></p>
   <p class="event-location">${escape(event.location)}</p>
   <p class="event-status">${escape(event.status)}</p>
   <p>${escape(event.description)}</p>
-  ${event.note ? `<p class="event-note">${escape(event.note)}</p>` : ''}
-  ${event.cta ? `<a class="${event.cta.intent === 'request' ? 'button' : 'event-info-link'}" href="${escape(event.cta.href)}">${escape(event.cta.label)} <span aria-hidden="true">↗</span></a>` : ''}
-  ${event.footnote ? `<p class="event-footnote">${escape(event.footnote)}</p>` : ''}
-</article>`).join('');
+  ${details}
+</article>`;
+}).join('');
 let html = (await read('template.html')).replace('<!-- CHECKLIST -->', checks).replace('<!-- DAYS -->', dayMarkup).replace('<!-- FAQ -->', faqs).replace('<!-- EVENTS -->', eventMarkup).replaceAll('{{CHECKED}}', checked);
 await writeFile(new URL('index.html', root), html);
 html = html.replace('<link rel="stylesheet" href="styles.css">', `<style>\n${await read('styles.css')}\n</style>`).replace('<script src="app.js" defer></script>', `<script>\n${await read('app.js')}\n</script>`);
