@@ -45,19 +45,21 @@ Links navigate to official/host sites; the guide never submits registrations.
 GitHub Pages serves this standalone static site without analytics or runtime data
 requests. No credentials or external build services are needed.
 
-LOCAL VALIDATION - NOVEMBER 18, 2026
+LOCAL VALIDATION - NOVEMBER 23, 2026
 21 automated nonbrowser checks pass, covering the offline build, selected session
-slots, event CTA semantics, checklist save/reset and blocked storage, FAQ filtering
-and Escape, Miami date boundaries, navigation hashes, semantic HTML nesting and
-internal targets, required text contrast pairs, responsive CSS rules, theme tokens,
-standalone size and absence of legacy conference facts or runtime network APIs.
+slots, event CTA semantics and details, direct BDO registration, source links and
+overlap copy, checklist save/reset and blocked storage, FAQ filtering and Escape,
+Miami date boundaries, navigation hashes, semantic HTML nesting and internal targets,
+required text contrast pairs, responsive CSS rules, theme tokens, standalone size
+and absence of legacy conference facts or runtime network APIs.
 Script syntax checks also pass. Separate isolated Chrome tests used --mute-audio,
 confirmed on the process before navigation, without changing system audio.
 Checked rendered layouts at 1440, 820, 390 and 320 CSS pixels, keyboard skip and
 jump links, checklist persistence and reset, FAQ search and disclosure, and core
-content with scripts disabled. No page warnings, errors or external requests were
-observed. These checks do not substitute for testing on physical phones, other
-browser engines or with a screen reader.
+content with scripts disabled. The BDO card, its registration and source links, and
+the Wednesday overlap note also pass live checks. No page warnings, errors or
+external requests were observed. These checks do not substitute for testing on
+physical phones, other browser engines or with a screen reader.
 Preview size is approximately 71 KB with all CSS/JS and content included.
 
 Design review: replaced thick one-sided note accents and rounded-card top stripes

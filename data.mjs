@@ -19,7 +19,7 @@ export const events = [
     date: 'Wednesday, December 9', time: '6:00-9:00 PM EST',
     location: 'The Miami Lady at The Fontainebleau Marina · 45th Street and Collins Avenue, Miami Beach, FL 33140',
     status: 'Registration available with the organizers',
-    description: 'A docked-boat gathering for cocktails, conversation and networking during Convergence. The hosts say there is no departure schedule.',
+    description: 'Hosted by BDO, Vertex and eftsure, this docked-boat gathering offers cocktails, conversation and networking during Convergence. The hosts say there is no departure schedule.',
     cta: {
       label: 'Register with BDO',
       href: 'https://insights.bdo.com/EV-2026-12-09-ALLABOARD...GOINGNOWHEREZeroNauticalMiles.CountlessConnections.-_EventRegistrationPage.html',

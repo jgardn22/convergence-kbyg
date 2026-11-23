@@ -152,6 +152,7 @@ test('event CTAs distinguish host requests, information and pending placeholders
   assert.equal(bdo.host, 'BDO, Vertex and eftsure');
   assert.equal(bdo.date, 'Wednesday, December 9');
   assert.equal(bdo.time, '6:00-9:00 PM EST');
+  assert.match(bdo.description, /Hosted by BDO, Vertex and eftsure/);
   assert.match(bdo.location, /The Miami Lady at The Fontainebleau Marina.*45th Street and Collins Avenue/);
   assert.equal(bdo.cta.intent, 'register');
   assert.match(bdo.cta.href, /^https:\/\/insights\.bdo\.com\//);
